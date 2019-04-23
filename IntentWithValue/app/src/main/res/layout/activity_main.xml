@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+        <EditText
+            android:id="@+id/edi_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Isikan Nama anda"/>
+        <EditText
+            android:id="@+id/edit_alamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Isikan Alamat"
+            android:visibility="visible"
+            android:layout_alignBottom="@+id/edi_nama"/>
+        <EditText
+            android:id="@+id/edit_kelas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Isikan Kelas"
+            android:visibility="visible"
+            android:layout_alignBottom="@+id/edi_nama"/>
+
+        <EditText
+            android:id="@+id/edit_prodi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Isikan Prodi"
+            android:visibility="visible"
+            android:layout_alignBottom="@+id/edi_nama"/>
+        <EditText
+            android:id="@+id/edit_fakultas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Isikan Fakultas"
+            android:visibility="visible"
+            android:layout_alignBottom="@+id/edi_nama"/>
+        <EditText
+            android:id="@+id/edit_notelp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Isikan Notelp"
+            android:visibility="visible"
+            android:layout_alignBottom="@+id/edi_nama"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tampil"
+            android:id="@+id/buttonTampil"/>
+
+</LinearLayout>
